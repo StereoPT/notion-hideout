@@ -1,0 +1,22 @@
+{
+  "name": "notion-hideout",
+  "version": "1.0.0",
+  "description": "Collection of Notion Enhancer Code",
+  "main": "./src/app.js",
+  "scripts": {
+    "dev": "node ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StereoPT/notion-hideout.git"
+  },
+  "keywords": [
+    "Notion"
+  ],
+  "author": "StereoPT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StereoPT/notion-hideout/issues"
+  },
+  "homepage": "https://github.com/StereoPT/notion-hideout#readme"
+}
