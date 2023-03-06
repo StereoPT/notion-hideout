@@ -1,0 +1,302 @@
+[
+  {
+    "id": "post-11543",
+    "href": "https://www.teatrojlsilva.pt/evento/uma-turma-dificil/ ",
+    "category": "Cinema",
+    "title": "Uma Turma Difícil",
+    "place": "Teatro Miguel Franco",
+    "date": {
+      "weekday": "Qua",
+      "day": "08",
+      "month": "Mar"
+    }
+  },
+  {
+    "id": "post-11544",
+    "href": "https://www.teatrojlsilva.pt/evento/a-acusacao/ ",
+    "category": "Cinema",
+    "title": "A Acusação",
+    "place": "Teatro Miguel Franco",
+    "date": {
+      "weekday": "Qua",
+      "day": "08",
+      "month": "Mar"
+    }
+  },
+  {
+    "id": "post-11575",
+    "href": "https://www.teatrojlsilva.pt/evento/la-rouge/ ",
+    "category": "Teatro",
+    "title": "LA ROUGE",
+    "place": "Teatro Miguel Franco",
+    "date": {
+      "weekday": "Qui",
+      "day": "09",
+      "month": "Mar"
+    }
+  },
+  {
+    "id": "post-11280",
+    "href": "https://www.teatrojlsilva.pt/evento/francisco-sales/ ",
+    "category": "Música",
+    "title": "Francisco Sales",
+    "place": "Teatro Miguel Franco",
+    "date": {
+      "weekday": "Sex",
+      "day": "10",
+      "month": "Mar"
+    }
+  },
+  {
+    "id": "post-11389",
+    "href": "https://www.teatrojlsilva.pt/evento/leiria-drag-festival/ ",
+    "category": "Música",
+    "title": "Leiria Drag Festival",
+    "place": "Teatro José Lúcio da Silva",
+    "date": {
+      "weekday": "Sáb",
+      "day": "11",
+      "month": "Mar"
+    }
+  },
+  {
+    "id": "post-11627",
+    "href": "https://www.teatrojlsilva.pt/evento/homenagem-a-mulher/ ",
+    "category": "Dança",
+    "title": "Homenagem à Mulher",
+    "place": "Teatro José Lúcio da Silva",
+    "date": {
+      "weekday": "Dom",
+      "day": "12",
+      "month": "Mar"
+    }
+  },
+  {
+    "id": "post-11546",
+    "href": "https://www.teatrojlsilva.pt/evento/aftersun/ ",
+    "category": "Cinema",
+    "title": "Aftersun",
+    "place": "Teatro Miguel Franco",
+    "date": {
+      "weekday": "Qua",
+      "day": "15",
+      "month": "Mar"
+    }
+  },
+  {
+    "id": "post-11608",
+    "href": "https://www.teatrojlsilva.pt/evento/missao-2023/ ",
+    "category": "Música",
+    "title": "Missão 2023",
+    "place": "Teatro José Lúcio da Silva",
+    "date": {
+      "weekday": "Qua",
+      "day": "15",
+      "month": "Mar"
+    }
+  },
+  {
+    "id": "post-11626",
+    "href": "https://www.teatrojlsilva.pt/evento/trash/ ",
+    "category": "Música",
+    "title": "Trash!",
+    "place": "Teatro José Lúcio da Silva",
+    "date": {
+      "weekday": "Sex",
+      "day": "17",
+      "month": "Mar"
+    }
+  },
+  {
+    "id": "post-11494",
+    "href": "https://www.teatrojlsilva.pt/evento/ines-condeco-ines-apenas/ ",
+    "category": "Música",
+    "title": "Inês Condeço + INÊS APENAS",
+    "place": "Teatro Miguel Franco",
+    "date": {
+      "weekday": "Sáb",
+      "day": "18",
+      "month": "Mar"
+    }
+  },
+  {
+    "id": "post-11612",
+    "href": "https://www.teatrojlsilva.pt/evento/gala-do-60o-aniversario/ ",
+    "category": "Música",
+    "title": "Gala do 60º aniversário",
+    "place": "Teatro José Lúcio da Silva",
+    "date": {
+      "weekday": "Sáb",
+      "day": "18",
+      "month": "Mar"
+    }
+  },
+  {
+    "id": "post-11479",
+    "href": "https://www.teatrojlsilva.pt/evento/entre-lugar/ ",
+    "category": "Música",
+    "title": "Entre – Lugar",
+    "place": "Teatro José Lúcio da Silva",
+    "date": {
+      "weekday": "Dom",
+      "day": "19",
+      "month": "Mar"
+    }
+  },
+  {
+    "id": "post-11532",
+    "href": "https://www.teatrojlsilva.pt/evento/concerto-para-gravidas-2/ ",
+    "category": "Música",
+    "title": "Concerto para Grávidas",
+    "place": "Teatro Miguel Franco",
+    "date": {
+      "weekday": "Dom",
+      "day": "19",
+      "month": "Mar"
+    }
+  },
+  {
+    "id": "post-11643",
+    "href": "https://www.teatrojlsilva.pt/evento/inmusic-com-o-saxofone/ ",
+    "category": "Música",
+    "title": "InMusic com o Saxofone",
+    "place": "Teatro Miguel Franco",
+    "date": {
+      "weekday": "Dom",
+      "day": "19",
+      "month": "Mar"
+    }
+  },
+  {
+    "id": "post-11629",
+    "href": "https://www.teatrojlsilva.pt/evento/nos-duas/ ",
+    "category": "Cinema",
+    "title": "Nós Duas",
+    "place": "Teatro Miguel Franco",
+    "date": {
+      "weekday": "Qua",
+      "day": "22",
+      "month": "Mar"
+    }
+  },
+  {
+    "id": "post-11464",
+    "href": "https://www.teatrojlsilva.pt/evento/o-meu-nariz-e-arabe/ ",
+    "category": "Teatro",
+    "title": "O Meu Nariz é Árabe",
+    "place": "Teatro José Lúcio da Silva",
+    "date": {
+      "weekday": "Seg",
+      "day": "27",
+      "month": "Mar"
+    }
+  },
+  {
+    "id": "post-11547",
+    "href": "https://www.teatrojlsilva.pt/evento/as-bestas/ ",
+    "category": "Cinema",
+    "title": "As Bestas",
+    "place": "Teatro Miguel Franco",
+    "date": {
+      "weekday": "Qua",
+      "day": "29",
+      "month": "Mar"
+    }
+  },
+  {
+    "id": "post-11463",
+    "href": "https://www.teatrojlsilva.pt/evento/karpaty-cirque/ ",
+    "category": "Novo circo",
+    "title": "Karpaty Cirqué",
+    "place": "Teatro José Lúcio da Silva",
+    "date": {
+      "weekday": "Sex",
+      "day": "31",
+      "month": "Mar"
+    }
+  },
+  {
+    "id": "post-11423",
+    "href": "https://www.teatrojlsilva.pt/evento/the-amy-winehouse-band/ ",
+    "category": "Música",
+    "title": "The Amy Winehouse band",
+    "place": "Teatro José Lúcio da Silva",
+    "date": {
+      "weekday": "Sáb",
+      "day": "01",
+      "month": "Abr"
+    }
+  },
+  {
+    "id": "post-11327",
+    "href": "https://www.teatrojlsilva.pt/evento/fados-futuros-guitarras-dolentes/ ",
+    "category": "Concertos para bebés",
+    "title": "FADOS futuros, Guitarras dolentes",
+    "place": "Teatro Miguel Franco",
+    "date": {
+      "weekday": "Dom",
+      "day": "02",
+      "month": "Abr"
+    }
+  },
+  {
+    "id": "post-11569",
+    "href": "https://www.teatrojlsilva.pt/evento/plim-t1-passa-la-na-agencia/ ",
+    "category": "Teatro",
+    "title": "PLIM  T1 – “Passa lá na Agência”",
+    "place": "Teatro José Lúcio da Silva",
+    "date": {
+      "weekday": "Qua",
+      "day": "05",
+      "month": "Abr"
+    }
+  },
+  {
+    "id": "post-11469",
+    "href": "https://www.teatrojlsilva.pt/evento/a-mesa-last-supper-de-leonardo-da-vinci/ ",
+    "category": "Teatro",
+    "title": "À MESA (Last Supper) de Leonardo Da Vinci",
+    "place": "Teatro José Lúcio da Silva",
+    "date": {
+      "weekday": "Qui",
+      "day": "06",
+      "month": "Abr"
+    }
+  },
+  {
+    "id": "post-10941",
+    "href": "https://www.teatrojlsilva.pt/evento/miguel-araujo-casca-de-noz/ ",
+    "category": "Música",
+    "title": "Miguel Araújo – Casca de Noz",
+    "place": "Teatro José Lúcio da Silva",
+    "date": {
+      "weekday": "Sex",
+      "day": "07",
+      "month": "Abr"
+    }
+  },
+  {
+    "id": "post-11616",
+    "href": "https://www.teatrojlsilva.pt/evento/ruy-a-historia-devida/ ",
+    "category": "Teatro",
+    "title": "RUY, A HISTÓRIA DEVIDA",
+    "place": "Teatro José Lúcio da Silva",
+    "date": {
+      "weekday": "Qui",
+      "day": "13",
+      "month": "Abr"
+    }
+  },
+  {
+    "id": "post-11299",
+    "href": "https://www.teatrojlsilva.pt/evento/futebol-espectaculo/ ",
+    "category": "Teatro",
+    "title": "FUTEBOL – espectáculo",
+    "place": "Teatro Miguel Franco",
+    "date": {
+      "weekday": "Sáb",
+      "day": "15",
+      "month": "Abr"
+    }
+  }
+]

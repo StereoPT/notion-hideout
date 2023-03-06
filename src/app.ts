@@ -1,3 +1,5 @@
+import fs from "fs/promises";
+
 import { fetchPage } from "./utils/fetchPage.js";
 import { scrapeTeatro } from "./scrapers/teatro.js";
 
@@ -8,4 +10,6 @@ console.log(bannerMessage);
 
 const teatroHTML = await fetchPage(teatroURL);
 const scrapedEvents = scrapeTeatro(teatroHTML);
-console.log(scrapedEvents);
+
+// This Writes the Events to a JSON File:
+// await fs.writeFile("events.json", JSON.stringify(scrapedEvents, null, 2));
