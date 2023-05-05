@@ -1,17 +1,5 @@
 [
   {
-    "id": "post-11835",
-    "href": "https://www.teatrojlsilva.pt/evento/as-8-montanhas/ ",
-    "category": "Cinema",
-    "title": "As 8 montanhas",
-    "place": "Teatro Miguel Franco",
-    "date": {
-      "weekday": "Qua",
-      "day": "03",
-      "month": "Mai"
-    }
-  },
-  {
     "id": "post-11426",
     "href": "https://www.teatrojlsilva.pt/evento/uma-conversa-entre-nos/ ",
     "category": "",
@@ -188,6 +176,18 @@
     "date": {
       "weekday": "Qua",
       "day": "24",
+      "month": "Mai"
+    }
+  },
+  {
+    "id": "post-11907",
+    "href": "https://www.teatrojlsilva.pt/evento/descobri-que/ ",
+    "category": "",
+    "title": "Descobri – Quê?",
+    "place": "",
+    "date": {
+      "weekday": "Sáb",
+      "day": "27",
       "month": "Mai"
     }
   },
