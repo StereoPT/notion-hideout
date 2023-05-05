@@ -45,10 +45,12 @@ const addItem = async (name: string, date: string) => {
   }
 };
 
-// addItem("Teste", "05-05-2023");
+const teatroHTML = await fetchPage(teatroURL);
+const scrapedEvents = scrapeTeatro(teatroHTML);
 
-// const teatroHTML = await fetchPage(teatroURL);
-// const scrapedEvents = scrapeTeatro(teatroHTML);
+for (const event of scrapedEvents) {
+  addItem(event.title, "05-05-2023");
+}
 
 // This Writes the Events to a JSON File:
 // await fs.writeFile("events.json", JSON.stringify(scrapedEvents, null, 2));
