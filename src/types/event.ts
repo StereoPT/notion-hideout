@@ -10,3 +10,12 @@ export type EventType = {
     month: string;
   };
 };
+
+export type NotionEventType = {
+  id: string;
+  name: string;
+  date: string;
+  place: string;
+  category: string;
+  link: string;
+};

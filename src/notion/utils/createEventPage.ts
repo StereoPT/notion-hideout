@@ -1,53 +1,49 @@
+import { NotionEventType } from "../../types/event.js";
 import notion from "../index.js";
 
-type EventType = {
-  name: string;
-  date: string;
-  place: string;
-  category: string;
-  link: string;
-};
-
-const createEventPage = async (databaseID: string, event: EventType) => {
-  try {
-    await notion.pages.create({
-      parent: { database_id: databaseID },
-      properties: {
-        Name: {
-          title: [
-            {
-              text: {
-                content: event.name,
-              },
+const createEventPage = (databaseID: string, event: NotionEventType) => {
+  return notion.pages.create({
+    parent: { database_id: databaseID },
+    properties: {
+      id: {
+        rich_text: [
+          {
+            text: {
+              content: event.id,
             },
-          ],
-        },
-        Date: {
-          date: {
-            start: event.date,
-            end: null,
           },
-        },
-        Place: {
-          select: {
-            name: event.place,
+        ],
+      },
+      Name: {
+        title: [
+          {
+            text: {
+              content: event.name,
+            },
           },
-        },
-        Category: {
-          select: {
-            name: event.category,
-          },
-        },
-        Link: {
-          url: event.link,
+        ],
+      },
+      Date: {
+        date: {
+          start: event.date,
+          end: null,
         },
       },
-    });
-
-    console.log("Success! Entry Added!");
-  } catch (error) {
-    console.error(error);
-  }
+      Place: {
+        select: {
+          name: event.place,
+        },
+      },
+      Category: {
+        select: {
+          name: event.category,
+        },
+      },
+      Link: {
+        url: event.link,
+      },
+    },
+  });
 };
 
 export default createEventPage;
