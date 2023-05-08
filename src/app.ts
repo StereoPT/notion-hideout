@@ -1,5 +1,3 @@
-import fs from "fs/promises";
-
 import { fetchPage } from "./utils/fetchPage.js";
 import { scrapeTeatro } from "./scrapers/teatro.js";
 import { handleEvents } from "./notion/index.js";
@@ -11,7 +9,5 @@ console.log(bannerMessage);
 
 const teatroHTML = await fetchPage(teatroURL);
 const scrapedEvents = scrapeTeatro(teatroHTML);
-handleEvents(scrapedEvents);
 
-// This Writes the Events to a JSON File:
-// await fs.writeFile("events.json", JSON.stringify(scrapedEvents, null, 2));
+handleEvents(scrapedEvents);

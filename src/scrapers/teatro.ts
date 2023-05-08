@@ -17,7 +17,7 @@ export const scrapeTeatro = (html: string): EventType[] => {
   const $ = cheerio.load(html);
   const events = $(EVENT.LIST);
 
-  console.log(` - Found ${events.length} Events`);
+  console.log(` [+] Found ${events.length} Events`);
 
   const scrapeEvent = (index: number, elem: cheerio.Element): EventType => {
     const event = $(elem);

@@ -1,47 +1,44 @@
 import { EventPageType } from "../../types/event.js";
-import notion from "../index.js";
+import createPage from "../createPage.js";
 
 const createEventPage = (databaseID: string, event: EventPageType) => {
-  return notion.pages.create({
-    parent: { database_id: databaseID },
-    properties: {
-      id: {
-        rich_text: [
-          {
-            text: {
-              content: event.id,
-            },
+  return createPage(databaseID, {
+    id: {
+      rich_text: [
+        {
+          text: {
+            content: event.id,
           },
-        ],
-      },
-      Name: {
-        title: [
-          {
-            text: {
-              content: event.name,
-            },
+        },
+      ],
+    },
+    Name: {
+      title: [
+        {
+          text: {
+            content: event.name,
           },
-        ],
-      },
-      Date: {
-        date: {
-          start: event.date,
-          end: null,
         },
+      ],
+    },
+    Date: {
+      date: {
+        start: event.date,
+        end: null,
       },
-      Place: {
-        select: {
-          name: event.place,
-        },
+    },
+    Place: {
+      select: {
+        name: event.place,
       },
-      Category: {
-        select: {
-          name: event.category,
-        },
+    },
+    Category: {
+      select: {
+        name: event.category,
       },
-      Link: {
-        url: event.link,
-      },
+    },
+    Link: {
+      url: event.link,
     },
   });
 };

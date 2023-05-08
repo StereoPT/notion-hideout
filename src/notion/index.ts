@@ -6,35 +6,14 @@ import moment from "moment";
 import { Client } from "@notionhq/client";
 import createEventPage from "./utils/createEventPage.js";
 import { EventType } from "../types/event.js";
+import queryEventDatabase from "./utils/queryEventDatabase.js";
 
 const notion = new Client({ auth: process.env.NOTION_KEY });
 const databaseID: string = process.env.NOTION_DATABASE_ID;
 
 export const handleEvents = async (events: EventType[]) => {
   const eventPromises = [];
-  const dbEventIDs = [];
-
-  const { results: dbEvents } = await notion.databases.query({
-    database_id: databaseID,
-  });
-
-  if (dbEvents.length > 0) {
-    for (const event of dbEvents) {
-      const { id, properties } = JSON.parse(JSON.stringify(event));
-
-      const shouldRemove = moment().isAfter(moment(properties.Date.date.start));
-
-      if (shouldRemove) {
-        await notion.pages.update({
-          page_id: id,
-          archived: true,
-        });
-        continue;
-      }
-
-      dbEventIDs.push(properties.id.rich_text[0].plain_text);
-    }
-  }
+  const dbEventIDs = await queryEventDatabase(databaseID);
 
   for (const event of events) {
     if (!event.title || !event.date || !event.place || !event.category || !event.href) continue;
@@ -57,7 +36,7 @@ export const handleEvents = async (events: EventType[]) => {
   }
 
   await Promise.all(eventPromises);
-  console.log(" [+] Events Added!");
+  console.log(` [+] ${eventPromises.length} Events Added!`);
 };
 
 export { createEventPage };
