@@ -11,7 +11,7 @@ export type EventType = {
   };
 };
 
-export type NotionEventType = {
+export type EventPageType = {
   id: string;
   name: string;
   date: string;

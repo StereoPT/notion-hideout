@@ -1,7 +1,7 @@
-import { NotionEventType } from "../../types/event.js";
+import { EventPageType } from "../../types/event.js";
 import notion from "../index.js";
 
-const createEventPage = (databaseID: string, event: NotionEventType) => {
+const createEventPage = (databaseID: string, event: EventPageType) => {
   return notion.pages.create({
     parent: { database_id: databaseID },
     properties: {
